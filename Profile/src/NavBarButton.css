@@ -1,7 +1,10 @@
 .navbarbutton{
+	align-self: center;
+	justify-content: flex-end;
 	height: 40px;
 	margin: 5px;
 	background: white;
 	border-radius: 10%;
-	justify-content: right;
+	display: flex;
+	flex: 1;
 }

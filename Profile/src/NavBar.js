@@ -8,9 +8,11 @@ export default class NavBar extends Component {
 		return(
 			<div className="navbar">
 				<NavBarHeading />
-				<NavBarButton text={'Home'} />
-				<NavBarButton text={'FAQ'} />
-				<NavBarButton text={'ContactMe'} />
+				<div className="buttons">
+					<NavBarButton text={'Home'} />
+					<NavBarButton text={'FAQ'} />
+					<NavBarButton text={'ContactMe'} />
+				</div>
 			</div>
 		);
 	}
